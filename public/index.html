@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    
     <title>Login Page</title>
 </head>
 <body>
     <div class="container">
         <div class="block">
             Sign-in
-            <form>
+            <form id="sign-in-submit">
                 <div class="sign-in">
                     <div class="sign-in-inputs">
                         <!-- <label for="username"></label> -->
@@ -21,9 +21,9 @@
                         <input type="password" placeholder="Password" name="password" id="password">
                     </div>
                 </div>
-                <button type="submit" id="sign-in-btn">Sign-in</button>
+                <button type="submit">Sign-in</button>
             </form>
-            <form>
+            <form id="sign-up-submit">
                 Sign-up
                 <div class="sign-up">
                     <div class="sign-up-inputs">
@@ -38,5 +38,6 @@
         </div>
     </div> 
     </div>
+    <script src="script.js" defer></script>
 </body>
 </html>
